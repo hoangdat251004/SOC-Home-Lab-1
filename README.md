@@ -37,7 +37,7 @@ I also install Fortigate as a firewall to give more event to do
 
   *Seting up FotigateVM*
 
-After that in Splunk_Server and Apache_Server I create a user name splunk to isolate the Splunk installation with the least privileage.
+After that in Splunk_Server and Apache_Server I create a user name splunk to isolate the Splunk installation with the least privilege.
 
 `useradd -s /bin/bash -d /opt/splunk -m splunk`
 
